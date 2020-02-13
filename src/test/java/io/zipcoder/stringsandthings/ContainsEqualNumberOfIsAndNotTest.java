@@ -19,7 +19,7 @@ public class ContainsEqualNumberOfIsAndNotTest {
 
     @Test
     public void equalIsNotTest1(){
-        Boolean actual = stringsAndThings.containsEqualNumberOfIsAndNot("This is not");
+       Boolean actual = stringsAndThings.containsEqualNumberOfIsAndNot("This is not");
         Assert.assertFalse(actual);
     }
 
