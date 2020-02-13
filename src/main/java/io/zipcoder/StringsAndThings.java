@@ -99,7 +99,7 @@ public class StringsAndThings {
     public Integer countTriple(String input){
         int count = 0;
         for (int i = 0; i <= input.length() -3; i++) {
-            if (input.charAt(i) == input.charAt(i + 1) ||input.charAt(i) == input.charAt(i +2)){
+            if (input.charAt(i) == input.charAt(i + 1) && input.charAt(i) == input.charAt(i +2)){
                 count++;
         }
         }
